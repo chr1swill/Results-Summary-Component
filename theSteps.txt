@@ -1,0 +1,71 @@
+(The steps-comment as you go
+
+{boilerplate, body, main
+
+{css basic setup(import fonts, *m0p0, border box)
+
+{set background of body size+color
+
+{set .card background size,color, border raduis
+
+{create 2 divs with .right .left
+
+{make .left the shade of blue(is it gradient?)
+
+{inside .left make div .left-container
+
+{make h2 "Your Result"
+
+{style .left h2 of the color, text align center
+
+{create div .result with b-radius 100%, color(surely gradient)
+
+{inside .result make p with .big-num "76" and .small-num "of 100"
+
+{styles #big-num to make white and larger
+
+{style #small-num to be color and lighter
+
+[inside .left make h1 "Great"
+
+{style h1 that size and white and bold
+
+{add p "You scored higher than 65%" of the people who have taken the test." 
+
+{add appropriate padding to the .left-container
+
+[inside .right make .right-container div
+
+[inside .right-container add h2 "Summary"
+
+{stlyes the text to be var --dark-blue-gray
+
+{make .color-bar-wrapper and add 4 divs .color-bar and give them #red #yellow #green #blue
+
+{inside .color-bar #red add .bar-container inside that add img src="lightning icon" #dark-red> h3"Reactions" #dark-red>  h3 .faded"<span .pop>80</span> / 100"
+
+{inside .color-bar #yellow add .bar-container inside that add img src="brain icon" #dark-yellow> h3"Memory" #dark-yellow>  h3 .faded"<span .pop>92</span> / 100"
+
+{inside .color-bar #green add .bar-container inside that add img src="msg icon" #dark-green> h3"Verbal" #dark-green>  h3 .faded"<span .pop>61<span> / 100"
+
+{inside .color-bar #blue add .bar-container inside that add img src="eye icon"#dark-blue> h3"Visual"#dark-blue>  h3.faded"<span .pop>72</span> / 100"
+
+{style .color-bar to the right width 100% and height? and correct bgc and border-radius and bottom margin
+
+{style .bar-container have the correct ammount of padding around, ensure content is centered 
+
+{:root to make color vars from --red-content, --yellow-content, --green-content, --blue-content, --light-gray, --dark-blue-gray(for button, summary, the numbers in cards) and apply them where applicable
+
+{make a .faded selctor and give it color var --light-gray
+
+{make a .pop selector with the color var --dark-blue-gray
+
+{make #dark-red have color: --red-content, #dark-yellow have color: --yellow-content, #dark-green have color: --green-content, #dark-blue have color: --blue-content
+
+{give .color-bar-wrapper a bottom margin 
+
+{still inside .right container make a button inside it add h4"Continue"
+
+{styles button width 100% border-radius bgc var--dark-blue-gray 
+
+{style button>h4 to the right size and color white

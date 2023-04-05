@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <div class="left-container">
+          <h2>Your Results</h2>
+          <div class="result">
+            <div class="num-wrapper">
+              <p id="big-num">76</p>
+              <p id="small-num">of 100</p>
+            </div>
+          </div>
+          <div class="lft-crd-txt-container">
+            <h1>Great</h1>
+            <p>
+              You scored higher than 65%" of the people who have taken the test.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="right-container">
+          <h2 id="h-sum">Summary</h2>
+          <div class="color-bar-wrapper">
+            <div class="color-bar" id="red">
+              <div class="bar-container">
+                <div>
+                  <img
+                    src="assets/images/icon-reaction.svg"
+                    alt=""
+                    class="dark-red"
+                  />
+                  <h3 class="dark-red">Reactions</h3>
+                </div>
+                <div class="f-end">
+                  <h3 class="faded"><span class="pop">80 </span> / 100</h3>
+                </div>
+              </div>
+            </div>
+            <div class="color-bar" id="yellow">
+              <div class="bar-container">
+                <div>
+                  <img
+                    src="assets/images/icon-memory.svg"
+                    alt=""
+                    class="dark-yellow"
+                  />
+                  <h3 class="dark-yellow">Memory</h3>
+                </div>
+                <div class="f-end">
+                  <h3 class="faded"><span class="pop">92 </span> / 100</h3>
+                </div>
+              </div>
+            </div>
+            <div class="color-bar" id="green">
+              <div class="bar-container">
+                <div class="f-start">
+                  <img
+                    src="assets/images/icon-verbal.svg"
+                    alt=""
+                    class="dark-green"
+                  />
+                  <h3 class="dark-green">Verbal</h3>
+                </div>
+                <div class="f-end">
+                  <h3 class="faded"><span class="pop">61 </span> / 100</h3>
+                </div>
+              </div>
+            </div>
+            <div class="color-bar" id="blue">
+              <div class="bar-container">
+                <div class="f-start">
+                  <img
+                    src="assets/images/icon-visual.svg"
+                    alt=""
+                    class="dark-blue"
+                  />
+                  <h3 class="dark-blue">Visual</h3>
+                </div>
+                <div class="f-end">
+                  <h3 class="faded"><span class="pop">72 </span> / 100</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#" target="_blank">Christian Williams</a>.
+      </div>
+    </footer>
+  </body>
+</html>
